@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>LOGIC</title>
+  </head>
+  <body>
+    <!--1. Number Operations -->
+    <h1>Number Operations</h1>
+    <label for="num1">Number 1:</label>
+    <input type="text" id="num1" /><br />
+    <label for="num2">Number 2:</label>
+    <input type="text" id="num2" /><br />
+    <button onclick="performOperations()">Calculate</button>
+    <hr />
+
+    <!--2.Palindrome Checker -->
+    <h1>Palindrome Checker</h1>
+    <label for="inputString">Enter a string:</label>
+    <input type="text" id="inputString" />
+    <button onclick="checkPalindrome()">Check</button>
+
+    <hr />
+
+    <!-- 3.Average Calculator -->
+    <h1>Average Calculator</h1>
+    <label for="inputArray">Enter numbers separated by commas:</label>
+    <input type="text" id="inputArray" />
+    <button onclick="calculateAverage()">Calculate</button>
+    <hr />
+
+    <!-- 4.Random Item -->
+    <h2>Random Item</h2>
+    <input type="text">
+    <p>Click the button below to select a random item from the list:</p>
+
+    <button onclick="selectRandomItem()">Submit</button>
+    <hr />
+
+    <!--5. Vowel Count -->
+    <h1>Vowel Count</h1>
+    <input type="text" id="inputString" placeholder="Enter a string" />
+    <button onclick="countVowels()">Count Vowels</button>
+    <hr />
+
+    <!--6.Median Calculator  -->
+    <h1>Median Calculator</h1>
+    <p>Enter a list of numbers separated by commas:</p>
+    <input type="text" id="numbersInput" />
+    <button onclick="calculateMedian()">Calculate</button>
+    <hr />
+
+    <!--7. Anagram Checker -->
+    <h1>Anagram Checker</h1>
+    <label for="str1">String 1:</label>
+    <input type="text" id="str1" /><br />
+    <label for="str2">String 2:</label>
+    <input type="text" id="str2" /><br />
+    <button onclick="checkAnagram()">Check</button>
+    <hr />
+
+    <!-- 8.Find Largest and Smallest Odd Numbers -->
+
+    <h2>Find Largest and Smallest Odd Numbers</h2>
+    <label for="numbersInput">Enter numbers (comma-separated):</label>
+    <input type="text" id="numbersInput" />
+    <button onclick="findOddNumbers()">Find</button>
+    <hr />
+
+    <!--9. Duplicates Removal -->
+    <h1>Remove Duplicates</h1>
+    <input type="text" id="outputs" />
+    <button onclick="removeDuplicates()">Remove Duplicates</button>
+    <!-- <p id="output"></p> -->
+    <hr />
+
+    <!--10. Prime Number Checker -->
+    <h1>Prime Number Checker</h1>
+    <label for="number">Enter a number:</label>
+    <input type="number" id="number" />
+    <button onclick="checkPrime()">Check</button>
+
+    <div id="result"></div>
+    <!--script add  -->
+    <script src="/script.js"></script>
+  </body>
+</html>
